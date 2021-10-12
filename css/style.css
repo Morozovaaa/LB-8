@@ -1,0 +1,175 @@
+@font-face{
+	font-family: "Futura PT";
+	font-style:normal;
+}
+
+body{
+    margin:0;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-size: 33px;
+    color:#EFFB6B; 
+    width:100%;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+.pic_1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+.bg{
+  z-index: 1;
+}
+.text_1{
+position: absolute;
+width: 670px;
+height: 258px;
+left: 186px;
+top: 347px;
+font-family: Futura Md BT;
+font-weight: bold;
+font-size: 70px;
+line-height: 114px;
+letter-spacing: 0.205em;
+line-height: 180%;
+text-align: center;
+z-index: 2;
+}
+.text_2{
+  position: absolute;
+width: 1228px;
+height: 181px;
+left: 250px;
+top: 1070px;
+font-size: 33px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.035em;
+}
+
+.text_3{
+  position:absolute; ;
+width: 590px;
+height: 504px;
+left: 227px;
+top: 1400px;
+font-weight: 600;
+font-size: 33px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.035em;
+}
+.pic_2{
+  position: absolute;
+width: 1324px;
+height: 798px;
+left: 131px;
+top: 1300px;
+}
+.pic_3{
+  position: absolute;
+width: 1600px;
+height: 1486px;
+left: 0px;
+top: 1917px;
+z-index: 2;
+}
+.text_4{
+position: absolute;
+width: 1057px;
+height: 210px;
+left: 321px;
+top: 2258px;
+font-weight: 600;
+font-size: 33px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.035em;
+z-index: 2;
+}
+.pic_4{
+  position: absolute;
+  width: 1308px;
+  height: 1913px;
+  top:3410px;
+  left:185px;
+  z-index: 2;
+}
+.pic_5{
+  position: absolute;
+width: 1600px;
+height: 862px;
+top:4200px;
+z-index: 2;
+}
+
+a.button8 {
+  display: inline-block;
+  color: #EFFB6B;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+} 
+a.button8:hover { background: rgba(255,255,255,.2); }
+a.button8:active { background: white; }
+.knopka{
+ position: absolute;
+ width: 310px;
+ height: 92px;
+ left: 682px;
+ top: 5150px;
+ z-index: 2;
+}
+.sss{
+  position: absolute;
+   top: 4110px;
+   left:780px;
+   z-index: 2;
+   font-size:33px;
+
+}
+
+.container-3 a {
+    position: relative;
+    text-decoration: none;
+    color: #EFFB6B;
+    display: inline-block;
+}
+.container-3 a::before,
+.container-3 a::after {
+    content: '';
+    position: absolute;
+    transition: transform .5s ease;
+    left: -4px;
+    top: 0;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-style: solid;
+    border-color: #EFFB6B;
+    box-sizing: border-box;
+}
+.container-3 a::before {
+    border-width: 1px 0 1px 0;
+    transform: scaleX(0);
+}
+.container-3 a::after {
+    border-width: 0 1px 0 1px;
+    transform: scaleY(0);
+}
+.container-3 a:hover::before,
+.container-3 a:hover::after {
+    transform: scale(1, 1);
+}
